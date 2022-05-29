@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<h1 style="padding-top: 25px;">FRD</h1>
+<h1>ANALYSIS OF DAILY SALES & DEPOSITS</h1>
+
+<h3 id="date">DATE: {var_date:}</h3>
+
+<h2>CASH IN:</h2>
+
+<table>
+    <tr>
+        <td>FOOD</td>
+        <td class="var">{var_food:}</td>
+        <td>(3010)</td>
+    </tr>
+    <tr>
+        <td>WINE</td>
+        <td class="var">{var_wine:}</td>
+        <td>(3020)</td>
+    </tr>
+    <tr>
+        <td>BEER</td>
+        <td class="var">{var_beer:}</td>
+        <td>(3030)</td>
+    </tr>
+    <tr>
+        <td>LIQUOR</td>
+        <td class="var">{var_liquor:}</td>
+        <td>(3040)</td>
+    </tr>
+    <tr>
+        <td>SALES TAX</td>
+        <td class="var">{var_tax:}</td>
+        <td>(2260)</td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold;">TOTAL SALES:</td>
+        <td class="var">{var_total_sales:}</td>
+    </tr>
+</table>
+
+<h2>CASH OUT:</h2> 
+
+
+<table>
+    <tr>
+        <td>FOOD</td>
+        <td>__________</td>
+        <td>4010</td>
+    </tr>
+    <tr>
+        <td>WINE</td>
+        <td>__________</td>
+        <td>4020</td>
+    </tr>
+    <tr>
+        <td>BEER</td>
+        <td>__________</td>
+        <td>4030</td>
+    </tr>
+    <tr>
+        <td>OPERATING SUPPLIES</td>
+        <td>__________</td>
+        <td>6320</td>
+    </tr>
+    <tr>
+        <td>OFFICE EXPENSE</td>
+        <td>__________</td>
+        <td>6220</td>
+    </tr>
+    <tr>
+        <td>REPAIRS & MAINTENANCE</td>
+        <td>__________</td>
+        <td>6280</td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold;">OTHER:</td>
+        <td>____________________</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>____________________</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td style="font-weight: bold;">TOTAL CREDIT CARD DEPOSITS:</td>
+        <td class="var">{var_total_credit:}</td>
+        <td>1010</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td style="font-weight: bold;">TOTAL CASH DEPOSITS:</td>
+        <td class="var">{var_cash:}</td>
+        <td>1010</td>
+    </tr>
+</table>
+
+</body>
+</html>
